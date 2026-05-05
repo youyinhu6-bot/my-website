@@ -1,3 +1,14 @@
 /*
     You can add your own custom styles here.
 */
+
+/* 隐藏页脚的 "Built with Hugo · Theme Stack designed by Jimmy" */
+.site-footer .powerby {
+    display: none;
+}
+
+/* 禁用头像链接点击 */
+.site-avatar a {
+    pointer-events: none;
+    cursor: default;
+}

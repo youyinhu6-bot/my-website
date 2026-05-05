@@ -1,24 +1,18 @@
 # Configure main menu and social menu
-#[[main]]
-#identifier = "home"
-#name = "Home"
-#url = "/"
-#[main.params]
-#icon = "home"
-#newtab = true
+
 
 [[social]]
-    identifier = "github"
-    name       = "GitHub"
-    url        = "https://github.com/CaiJimmy/hugo-theme-stack"
+    identifier = "linkedin"
+    name       = "LinkedIn"
+    url        = "https://www.linkedin.com/in/youyin-hu-a7888b1b6"
 
     [social.params]
-        icon = "brand-github"
+        icon = "brand-linkedin"
 
 [[social]]
-    identifier = "twitter"
-    name       = "Twitter"
-    url        = "https://twitter.com"
+    identifier = "email"
+    name       = "Email"
+    url        = "mailto:youyinhu6@gmail.com"
 
     [social.params]
-        icon = "brand-twitter"
+        icon = "mail"

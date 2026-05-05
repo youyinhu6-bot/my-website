@@ -1,0 +1,106 @@
+{{ define "body-class" }}article-page{{ end }}
+
+{{ define "main" }}
+<article class="main-article">
+    <section class="article-content">
+
+        <style>
+        .paper-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 8px;
+        }
+        .paper-card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .paper-card {
+            padding: 24px 28px;
+            border-radius: var(--card-border-radius, 10px);
+            background: var(--card-background, #fff);
+            box-shadow: var(--shadow-l1, 0 2px 8px rgba(0,0,0,.08));
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+            cursor: pointer;
+        }
+        .paper-card:hover {
+            box-shadow: var(--shadow-l2, 0 4px 16px rgba(0,0,0,.14));
+            transform: translateY(-2px);
+        }
+        .paper-title {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin: 0 0 10px 0;
+            color: var(--card-text-color-main, #333);
+        }
+        .paper-card-link:hover .paper-title {
+            color: var(--accent-color, #3d7ebe);
+        }
+        .paper-authors {
+            font-size: 15px;
+            color: var(--card-text-color-secondary, #666);
+            margin: 0 0 6px 0;
+        }
+        .paper-journal {
+            font-size: 14px;
+            color: var(--card-text-color-secondary, #666);
+            margin: 0 0 12px 0;
+        }
+        .paper-badge {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 3px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.02em;
+        }
+        .paper-badge.published {
+            background: #d4edda;
+            color: #1a6830;
+        }
+        .paper-badge.under-review {
+            background: #fff3cd;
+            color: #856404;
+        }
+        .paper-badge.in-preparation {
+            background: #e8e8e8;
+            color: #555555;
+        }
+        </style>
+
+        <div class="paper-list">
+
+            <a href="/paper-privacy-preserving/" class="paper-card-link">
+                <div class="paper-card">
+                    <h2 class="paper-title">Privacy-Preserving Distributed Recursive Filtering for State-Saturated Systems with Quantization Effects</h2>
+                    <p class="paper-authors">Hu, Y.; Zhang, C.; Liu, S.</p>
+                    <p class="paper-journal"><em>International Journal of Network Dynamics and Intelligence</em> 2025, 4 (2), 100012.</p>
+                    <span class="paper-badge published">Published</span>
+                </div>
+            </a>
+
+            <a href="/paper-push-sum/" class="paper-card-link">
+                <div class="paper-card">
+                    <h2 class="paper-title">Push-Sum Distributed Optimization for Multi-Agent Systems Under Encoding-Decoding Scheme</h2>
+                    <p class="paper-authors">Hu, Y.; Liu, S.; Wang, L.</p>
+                    <p class="paper-journal"><em>International Journal of Robust and Nonlinear Control</em></p>
+                    <span class="paper-badge under-review">Under Review</span>
+                </div>
+            </a>
+
+            <a href="/paper-gradient-tracking/" class="paper-card-link">
+                <div class="paper-card">
+                    <h2 class="paper-title">Gradient Tracking-Based Push-Sum Distributed Optimization Under Encoding-Decoding Scheme</h2>
+                    <p class="paper-authors">Hu, Y.; Liu, S.</p>
+                    <p class="paper-journal"><em></em></p>
+                    <span class="paper-badge in-preparation">In Preparation</span>
+                </div>
+            </a>
+
+        </div>
+
+    </section>
+</article>
+{{ end }}

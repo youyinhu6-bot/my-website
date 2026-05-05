@@ -1,0 +1,25 @@
+{{ define "body-class" }}article-page{{ end }}
+
+{{ define "right-sidebar" }}
+<aside class="sidebar right-sidebar sticky">
+    {{- $widgets := $.Site.Params.widgets.homepage -}}
+    {{- range $widgets -}}
+        {{- partial (printf "widget/%s.html" .type) (dict "Context" $ "Params" .params) -}}
+    {{- end -}}
+</aside>
+{{ end }}
+
+{{ define "main" }}
+<article class="main-article">
+    <header class="article-header">
+        <div class="article-details">
+            <div class="article-title-wrapper">
+                <h2 class="article-title">{{ .Title }}</h2>
+            </div>
+        </div>
+    </header>
+    <section class="article-content">
+        {{ .Content }}
+    </section>
+</article>
+{{ end }}
