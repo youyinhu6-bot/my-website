@@ -1,9 +1,10 @@
 ---
-title: "Research"
+title: "Youyin Hu"
 slug: "research"
 comments: false
 menu:
     main:
+        name: "Research"
         weight: 2
         params:
             icon: microscope

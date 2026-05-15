@@ -1,9 +1,10 @@
 ---
-title: "More About"
+title: "Youyin Hu"
 slug: "more-about"
 comments: false
 menu:
     main:
+        name: "More About"
         weight: 5
         params:
             icon: star
