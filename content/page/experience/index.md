@@ -4,7 +4,7 @@ slug: "experience"
 comments: false
 menu:
     main:
-        weight: 3
+        weight: 4
         params:
             icon: briefcase
 ---

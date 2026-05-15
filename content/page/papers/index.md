@@ -6,7 +6,7 @@ comments: false
 menu:
     main:
         name: "Papers"
-        weight: 4
+        weight: 3
         params:
             icon: file-text
 ---
