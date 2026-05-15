@@ -12,3 +12,9 @@
     pointer-events: none;
     cursor: default;
 }
+
+/* 确保文章内链接可见 */
+.article-content a {
+    color: var(--accent-color, #3d7ebe);
+    text-decoration: underline;
+}
