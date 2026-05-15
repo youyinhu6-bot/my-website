@@ -13,8 +13,9 @@
     cursor: default;
 }
 
-/* 确保文章内链接可见 */
-.article-content a {
+/* 确保文章正文内的行内链接可见 */
+.article-content p a,
+.article-content li a {
     color: var(--accent-color, #3d7ebe);
     text-decoration: underline;
 }
