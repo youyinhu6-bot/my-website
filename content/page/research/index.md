@@ -40,7 +40,7 @@ menu:
 - Developed a distributed recursive filter for state-saturated systems, utilizing output mask functions to ensure data privacy and scaled uniform quantization to optimize communication efficiency in sensor networks.
 - Derived the upper bound of filtering error covariance via Riccati-like equations, proving its boundedness over a finite horizon and recursively solving for the optimal gain matrix to balance accuracy and stability.
 - Verified the algorithm's robustness against nonlinear saturation through a three-tank system simulation in MATLAB.
-- Published findings in [*International Journal of Network Dynamics and Intelligence*](https://doi.org/10.53941/ijndi.2025.100012) (2025, DOI: 10.53941/ijndi.2025.100012).
+- Published findings in *International Journal of Network Dynamics and Intelligence* (2025, DOI: [10.53941/ijndi.2025.100012](https://doi.org/10.53941/ijndi.2025.100012)).
 
 ## The 22nd China Graduate Mathematical Contest in Modeling
 
