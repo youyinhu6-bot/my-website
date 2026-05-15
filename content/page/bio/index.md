@@ -1,9 +1,10 @@
 ---
-title: "Bio"
+title: "Youyin Hu"
 slug: "bio"
 layout: "bio"
 menu:
     main:
+        name: "Bio"
         weight: 1
         params:
             icon: user
