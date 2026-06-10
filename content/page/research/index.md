@@ -14,14 +14,12 @@ menu:
 .article-title, .article-time--reading, .article-meta { display: none; }
 </style>
 
-## Gradient Tracking-Based Push-Sum Distributed Optimization Under Encoding-Decoding Scheme *(In Preparation)*
+## A Compressed Gradient Tracking Algorithm with Differential Privacy for Distributed Optimization over Directed Graphs *(In Preparation)*
 
 *Independent Researcher · April 2026 – Present*
 
-- Proposed a gradient tracking-based push-sum algorithm integrated with an encoding-decoding quantization scheme to achieve exact and communication-efficient distributed optimization over directed graphs.
-- Designed an encoding-decoding mechanism that converts continuous gradient information into quantized data with provably bounded error, significantly reducing communication overhead in multi-agent networks.
-- Incorporated gradient tracking techniques to correct the gradient bias arising from heterogeneous local objective functions, enabling exact convergence to the global optimum.
-- Established rigorous convergence guarantees for the proposed algorithm over time-varying directed graphs, characterizing the impact of quantization error on convergence rate.
+- Extended compressed gradient tracking to directed graphs by integrating an encoding-decoding quantization scheme into the push-DIGing framework, reducing communication overhead while handling asymmetric network topologies.
+- Integrating (ε, δ)-differential privacy via calibrated noise injection into push-DIGing updates, currently deriving convergence rate bounds and privacy-utility tradeoffs over time-varying directed graphs; manuscript in preparation.
 
 ## Push-Sum Distributed Optimization for Multi-Agent Systems Under Encoding-Decoding Scheme
 
@@ -31,7 +29,7 @@ menu:
 - Designed a unified protocol integrating Paillier encryption and encoding-decoding quantization, effectively handling asymmetric directed communication topologies.
 - Derived rigorous theoretical convergence guarantees for uniformly strongly connected time-varying directed graphs, establishing explicit convergence rate bounds.
 - Formulated a comprehensive error propagation analysis, proving that quantization errors decay exponentially to ensure optimal solution convergence.
-- Authored the manuscript: "Push-Sum Distributed Optimization for Multi-Agent Systems Under Encoding-Decoding Scheme," submitted to *International Journal of Robust and Nonlinear Control* (Under Review).
+- Authored the manuscript: "Push-Sum Distributed Optimization for Multi-Agent Systems Under Encoding-Decoding Scheme," submitted to *Nonlinear Dynamics* (Under Review).
 
 ## Privacy-Preserving Distributed Recursive Filtering for State-Saturated Systems with Quantization Effects
 
