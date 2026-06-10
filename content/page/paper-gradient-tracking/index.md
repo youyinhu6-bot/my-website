@@ -1,5 +1,5 @@
 ---
-title: "Gradient Tracking-Based Push-Sum Distributed Optimization Under Encoding-Decoding Scheme"
+title: "A Compressed Gradient Tracking Algorithm with Differential Privacy for Distributed Optimization over Directed Graphs"
 slug: "paper-gradient-tracking"
 comments: false
 ---
